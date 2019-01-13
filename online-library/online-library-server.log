@@ -1,0 +1,645 @@
+2018-12-09 10:28:00.048  INFO 2288 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 2288 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 10:28:00.056  INFO 2288 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 10:28:01.171  INFO 2288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 10:28:01.271  INFO 2288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 7 repository interfaces.
+2018-12-09 10:28:01.611  INFO 2288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad36954c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 10:28:01.921  INFO 2288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 10:28:01.931  INFO 2288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 10:28:01.931  INFO 2288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 10:28:01.941  INFO 2288 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 10:28:02.061  INFO 2288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 10:28:02.062  INFO 2288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1957 ms
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 10:28:02.105  INFO 2288 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 10:28:02.285  INFO 2288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 10:28:02.285  WARN 2288 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 10:28:02.795  INFO 2288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 10:28:02.835  INFO 2288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 10:28:02.905  INFO 2288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 10:28:02.905  INFO 2288 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 10:28:03.055  INFO 2288 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 10:28:03.206  INFO 2288 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 10:28:03.879  INFO 2288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 10:28:04.585  WARN 2288 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 10:28:04.705  INFO 2288 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 10:28:04.835  INFO 2288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 10:28:05.379  INFO 2288 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@752494dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@bc52a41, org.springframework.security.web.header.HeaderWriterFilter@308c65e0, org.springframework.security.web.authentication.logout.LogoutFilter@3a988299, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d5048d1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73d83141, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2986427e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@67a38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5615f82d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@651cedfb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35d88a54, org.springframework.security.web.session.SessionManagementFilter@1e482ecd, org.springframework.security.web.access.ExceptionTranslationFilter@74b7497b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45d46254]
+2018-12-09 10:28:05.429  INFO 2288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 10:28:05.449  INFO 2288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 10:28:05.479  INFO 2288 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 10:28:05.629  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 10:28:05.639  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 10:28:05.639  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 10:28:05.639  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 10:28:05.649  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 10:28:05.649  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 10:28:05.659  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 10:28:05.659  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 10:28:05.679  INFO 2288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 10:28:05.719  INFO 2288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 10:28:05.729  INFO 2288 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 6.251 seconds (JVM running for 7.436)
+2018-12-09 10:28:12.860  INFO 2288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 10:28:12.860  INFO 2288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 10:28:12.870  INFO 2288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-12-09 10:28:25.811  INFO 2288 --- [http-nio-8080-exec-8] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 10:28:26.216  INFO 2288 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /favicon.ico 权限有效
+2018-12-09 10:28:47.330  INFO 2288 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 10:28:47.360  INFO 2288 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 10:28:47.361  INFO 2288 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 10:28:47.776  INFO 2288 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 10:28:47.797  INFO 2288 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 10:28:47.800  INFO 2288 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 10:28:47.808  INFO 2288 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 10:28:47.812  INFO 2288 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 10:28:47.813  INFO 2288 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 10:28:48.284  INFO 2288 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 10:28:48.293  INFO 2288 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 10:28:48.307  INFO 2288 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 10:28:48.346  INFO 2288 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 10:28:48.366  INFO 2288 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 10:28:48.418  INFO 2288 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 10:28:48.431  INFO 2288 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 10:28:48.442  INFO 2288 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 10:28:49.001  INFO 2288 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 10:28:49.003  INFO 2288 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 10:28:49.006  INFO 2288 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 10:28:49.008  INFO 2288 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 10:28:56.084  INFO 2288 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 10:30:03.636  INFO 2288 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/list/1067624157691244544 权限有效
+2018-12-09 10:38:11.671  INFO 11504 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 11504 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 10:38:11.675  INFO 11504 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 10:38:12.745  INFO 11504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 10:38:12.845  INFO 11504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91ms. Found 7 repository interfaces.
+2018-12-09 10:38:13.169  INFO 11504 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e269dc0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 10:38:13.455  INFO 11504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 10:38:13.470  INFO 11504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 10:38:13.470  INFO 11504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 10:38:13.476  INFO 11504 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 10:38:13.593  INFO 11504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 10:38:13.594  INFO 11504 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1865 ms
+2018-12-09 10:38:13.646  INFO 11504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 10:38:13.647  INFO 11504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 10:38:13.647  INFO 11504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 10:38:13.647  INFO 11504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 10:38:13.648  INFO 11504 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 10:38:13.648  INFO 11504 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 10:38:13.648  INFO 11504 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 10:38:13.810  INFO 11504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 10:38:13.811  WARN 11504 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 10:38:13.970  INFO 11504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 10:38:14.015  INFO 11504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 10:38:14.068  INFO 11504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 10:38:14.070  INFO 11504 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 10:38:14.180  INFO 11504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 10:38:14.299  INFO 11504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 10:38:14.923  INFO 11504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 10:38:15.619  WARN 11504 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 10:38:15.738  INFO 11504 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 10:38:15.869  INFO 11504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 10:38:16.147  INFO 11504 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@727956bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ae958b0, org.springframework.security.web.header.HeaderWriterFilter@3ec7ad61, org.springframework.security.web.authentication.logout.LogoutFilter@57927bc9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@570ed9c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2a99fa07, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ffbf0ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2cc34cd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ff074a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c788d08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ad5cffa, org.springframework.security.web.session.SessionManagementFilter@7598d675, org.springframework.security.web.access.ExceptionTranslationFilter@2b9ecd05, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a751535]
+2018-12-09 10:38:16.204  INFO 11504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 10:38:16.220  INFO 11504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 10:38:16.247  INFO 11504 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 10:38:16.625  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 10:38:16.627  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 10:38:16.630  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 10:38:16.632  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 10:38:16.638  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 10:38:16.639  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 10:38:16.646  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 10:38:16.650  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 10:38:16.664  INFO 11504 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 10:38:16.707  INFO 11504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 10:38:16.710  INFO 11504 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 5.586 seconds (JVM running for 6.581)
+2018-12-09 10:38:21.140  INFO 11504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 10:38:21.140  INFO 11504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 10:38:21.150  INFO 11504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-12-09 10:38:26.836  INFO 11504 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 10:38:29.430  INFO 11504 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 10:38:29.471  INFO 11504 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 10:38:29.474  INFO 11504 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 10:38:29.730  INFO 11504 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 10:38:29.751  INFO 11504 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 10:38:29.752  INFO 11504 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 10:38:29.761  INFO 11504 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 10:38:29.765  INFO 11504 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 10:38:29.765  INFO 11504 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 10:38:30.175  INFO 11504 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 10:38:30.180  INFO 11504 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 10:38:30.195  INFO 11504 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 10:38:30.234  INFO 11504 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 10:38:30.245  INFO 11504 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 10:38:30.288  INFO 11504 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 10:38:30.298  INFO 11504 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 10:38:30.298  INFO 11504 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 10:38:30.832  INFO 11504 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 10:38:30.833  INFO 11504 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 10:38:30.835  INFO 11504 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 10:38:30.837  INFO 11504 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 10:38:45.300  INFO 11504 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 10:39:11.221  INFO 11504 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 11:07:23.349  INFO 11504 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 11:11:18.457  INFO 11504 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 11:49:22.141  INFO 11364 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 11364 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 11:49:22.144  INFO 11364 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 11:49:23.253  INFO 11364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 11:49:23.351  INFO 11364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 7 repository interfaces.
+2018-12-09 11:49:23.692  INFO 11364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c357c0ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 11:49:23.969  INFO 11364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 11:49:23.985  INFO 11364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 11:49:23.985  INFO 11364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 11:49:23.992  INFO 11364 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 11:49:24.115  INFO 11364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 11:49:24.116  INFO 11364 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1911 ms
+2018-12-09 11:49:24.163  INFO 11364 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 11:49:24.163  INFO 11364 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 11:49:24.163  INFO 11364 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 11:49:24.163  INFO 11364 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 11:49:24.164  INFO 11364 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 11:49:24.164  INFO 11364 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 11:49:24.164  INFO 11364 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 11:49:24.318  INFO 11364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 11:49:24.319  WARN 11364 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 11:49:24.483  INFO 11364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 11:49:24.529  INFO 11364 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 11:49:24.581  INFO 11364 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 11:49:24.582  INFO 11364 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 11:49:24.692  INFO 11364 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 11:49:24.810  INFO 11364 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 11:49:25.400  INFO 11364 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 11:49:26.126  WARN 11364 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 11:49:26.245  INFO 11364 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 11:49:26.366  INFO 11364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 11:49:26.649  INFO 11364 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6be8ce1b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a04d2a4, org.springframework.security.web.header.HeaderWriterFilter@733fa95c, org.springframework.security.web.authentication.logout.LogoutFilter@9cc0505, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c5708e7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24de63b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e3c36d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ad40184, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@362be0cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b69fc07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@397a10df, org.springframework.security.web.session.SessionManagementFilter@688d619c, org.springframework.security.web.access.ExceptionTranslationFilter@2c0fefac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f4964f2]
+2018-12-09 11:49:26.706  INFO 11364 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 11:49:26.722  INFO 11364 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 11:49:26.748  INFO 11364 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 11:49:27.102  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 11:49:27.104  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 11:49:27.107  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 11:49:27.109  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 11:49:27.115  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 11:49:27.117  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 11:49:27.124  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 11:49:27.127  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 11:49:27.142  INFO 11364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 11:49:27.185  INFO 11364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 11:49:27.187  INFO 11364 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 5.525 seconds (JVM running for 6.537)
+2018-12-09 11:49:31.842  INFO 11364 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 11:49:31.843  INFO 11364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 11:49:31.853  INFO 11364 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-12-09 11:49:36.292  INFO 11364 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 11:49:39.056  INFO 11364 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 11:49:39.102  INFO 11364 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 11:49:39.106  INFO 11364 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 11:49:39.621  INFO 11364 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 11:49:39.644  INFO 11364 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 11:49:39.645  INFO 11364 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 11:49:39.653  INFO 11364 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 11:49:39.653  INFO 11364 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 11:49:39.655  INFO 11364 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 11:49:40.073  INFO 11364 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 11:49:40.082  INFO 11364 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 11:49:40.098  INFO 11364 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 11:49:40.138  INFO 11364 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 11:49:40.150  INFO 11364 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 11:49:40.196  INFO 11364 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 11:49:40.206  INFO 11364 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 11:49:40.208  INFO 11364 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 11:49:40.750  INFO 11364 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 11:49:40.750  INFO 11364 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 11:49:40.751  INFO 11364 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 11:49:40.752  INFO 11364 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 11:49:43.874  INFO 11364 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 11:50:03.960  INFO 11364 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 11:50:08.966 ERROR 11364 --- [http-nio-8080-exec-6] com.ice.common.GlobalExceptionHandler    : [/resource/upload] request catch system error Invoke of: ExportAsFixedFormat
+Source: 
+Description: 
+
+2018-12-09 11:52:45.902  INFO 4344 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 4344 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 11:52:45.908  INFO 4344 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 11:52:47.101  INFO 4344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 11:52:47.223  INFO 4344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 7 repository interfaces.
+2018-12-09 11:52:47.605  INFO 4344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86d7425a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 11:52:47.928  INFO 4344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 11:52:47.949  INFO 4344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 11:52:47.949  INFO 4344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 11:52:47.956  INFO 4344 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 11:52:48.092  INFO 4344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 11:52:48.093  INFO 4344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2129 ms
+2018-12-09 11:52:48.175  INFO 4344 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 11:52:48.175  INFO 4344 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 11:52:48.176  INFO 4344 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 11:52:48.176  INFO 4344 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 11:52:48.177  INFO 4344 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 11:52:48.177  INFO 4344 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 11:52:48.177  INFO 4344 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 11:52:48.340  INFO 4344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 11:52:48.342  WARN 4344 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 11:52:48.536  INFO 4344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 11:52:48.584  INFO 4344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 11:52:48.643  INFO 4344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 11:52:48.645  INFO 4344 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 11:52:48.781  INFO 4344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 11:52:48.914  INFO 4344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 11:52:49.578  INFO 4344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 11:52:50.388  WARN 4344 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 11:52:50.532  INFO 4344 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 11:52:50.679  INFO 4344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 11:52:51.000  INFO 4344 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ad5cffa, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ff074a0, org.springframework.security.web.header.HeaderWriterFilter@7598d675, org.springframework.security.web.authentication.logout.LogoutFilter@32dbca45, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5034681f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1df06ecd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@237aa0c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2de7c84a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34a33343, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a99fa07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b8ee69d, org.springframework.security.web.session.SessionManagementFilter@4ae958b0, org.springframework.security.web.access.ExceptionTranslationFilter@3ec7ad61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f166d61]
+2018-12-09 11:52:51.070  INFO 4344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 11:52:51.089  INFO 4344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 11:52:51.119  INFO 4344 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 11:52:51.620  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 11:52:51.622  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 11:52:51.629  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 11:52:51.630  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 11:52:51.636  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 11:52:51.637  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 11:52:51.647  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 11:52:51.650  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 11:52:51.668  INFO 4344 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 11:52:51.735  INFO 4344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 11:52:51.737  INFO 4344 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 6.459 seconds (JVM running for 7.584)
+2018-12-09 11:52:54.633  INFO 4344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 11:52:54.634  INFO 4344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 11:52:54.647  INFO 4344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2018-12-09 11:52:59.489  INFO 4344 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 11:53:03.157  INFO 4344 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 11:53:03.199  INFO 4344 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 11:53:03.201  INFO 4344 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 11:53:03.687  INFO 4344 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 11:53:03.710  INFO 4344 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 11:53:03.711  INFO 4344 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 11:53:03.716  INFO 4344 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 11:53:03.719  INFO 4344 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 11:53:03.725  INFO 4344 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 11:53:04.165  INFO 4344 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 11:53:04.173  INFO 4344 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 11:53:04.191  INFO 4344 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 11:53:04.233  INFO 4344 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 11:53:04.246  INFO 4344 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 11:53:04.291  INFO 4344 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 11:53:04.302  INFO 4344 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 11:53:04.303  INFO 4344 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 11:53:04.812  INFO 4344 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 11:53:04.812  INFO 4344 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 11:53:04.813  INFO 4344 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 11:53:04.815  INFO 4344 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 11:53:19.502  INFO 4344 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 11:53:34.096  INFO 4344 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 12:02:33.943  INFO 11516 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 11516 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 12:02:33.948  INFO 11516 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 12:02:35.076  INFO 11516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 12:02:35.187  INFO 11516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 7 repository interfaces.
+2018-12-09 12:02:35.521  INFO 11516 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e269dc0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 12:02:35.818  INFO 11516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 12:02:35.834  INFO 11516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 12:02:35.834  INFO 11516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 12:02:35.841  INFO 11516 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 12:02:35.968  INFO 11516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 12:02:35.969  INFO 11516 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1965 ms
+2018-12-09 12:02:36.010  INFO 11516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 12:02:36.010  INFO 11516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 12:02:36.010  INFO 11516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 12:02:36.011  INFO 11516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 12:02:36.011  INFO 11516 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 12:02:36.011  INFO 11516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 12:02:36.011  INFO 11516 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 12:02:36.135  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 12:02:36.136  WARN 11516 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 12:02:36.294  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 12:02:36.335  INFO 11516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 12:02:36.391  INFO 11516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 12:02:36.393  INFO 11516 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 12:02:36.508  INFO 11516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 12:02:36.645  INFO 11516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 12:02:37.244  INFO 11516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 12:02:37.736  WARN 11516 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resourceController': Unsatisfied dependency expressed through field 'resourceService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'project.basedir' in value "${project.basedir}"
+2018-12-09 12:02:37.737  INFO 11516 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 12:02:37.739  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-09 12:02:37.743  INFO 11516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-09 12:02:37.744  INFO 11516 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-09 12:02:37.756  INFO 11516 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-09 12:02:37.767 ERROR 11516 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'resourceController': Unsatisfied dependency expressed through field 'resourceService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'project.basedir' in value "${project.basedir}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.ice.OnlineLibraryApplication.main(OnlineLibraryApplication.java:17) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resourceServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'project.basedir' in value "${project.basedir}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'project.basedir' in value "${project.basedir}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:842) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1187) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 30 common frames omitted
+
+2018-12-09 12:13:49.979  INFO 14764 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 14764 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 12:13:49.984  INFO 14764 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 12:13:51.190  INFO 14764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 12:13:51.295  INFO 14764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 7 repository interfaces.
+2018-12-09 12:13:51.654  INFO 14764 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$973a4bef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 12:13:51.945  INFO 14764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 12:13:51.961  INFO 14764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 12:13:51.962  INFO 14764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 12:13:51.968  INFO 14764 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 12:13:52.098  INFO 14764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 12:13:52.098  INFO 14764 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2049 ms
+2018-12-09 12:13:52.144  INFO 14764 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 12:13:52.145  INFO 14764 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 12:13:52.145  INFO 14764 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 12:13:52.145  INFO 14764 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 12:13:52.146  INFO 14764 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 12:13:52.146  INFO 14764 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 12:13:52.146  INFO 14764 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 12:13:52.293  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 12:13:52.294  WARN 14764 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 12:13:52.501  INFO 14764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 12:13:52.544  INFO 14764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 12:13:52.603  INFO 14764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 12:13:52.605  INFO 14764 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 12:13:52.728  INFO 14764 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 12:13:52.846  INFO 14764 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 12:13:53.444  INFO 14764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 12:13:54.138  WARN 14764 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 12:13:54.256  INFO 14764 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 12:13:54.377  INFO 14764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 12:13:54.654  INFO 14764 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b23c1f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@41bd6a0f, org.springframework.security.web.header.HeaderWriterFilter@b56c222, org.springframework.security.web.authentication.logout.LogoutFilter@35a9e665, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4182a651, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@688d619c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3f4964f2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@61836cd9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6acb45c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@733fa95c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bf01a01, org.springframework.security.web.session.SessionManagementFilter@4df7b4ac, org.springframework.security.web.access.ExceptionTranslationFilter@1d2c253, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1df06ecd]
+2018-12-09 12:13:54.709  INFO 14764 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 12:13:54.725  INFO 14764 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 12:13:54.751  INFO 14764 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 12:13:55.142  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 12:13:55.143  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 12:13:55.147  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 12:13:55.149  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 12:13:55.155  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 12:13:55.156  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 12:13:55.164  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 12:13:55.167  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 12:13:55.182  INFO 14764 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 12:13:55.221  INFO 14764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 12:13:55.224  INFO 14764 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 5.834 seconds (JVM running for 6.836)
+2018-12-09 12:13:59.786  INFO 14764 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 12:13:59.787  INFO 14764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 12:13:59.798  INFO 14764 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2018-12-09 12:14:04.131  INFO 14764 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 12:14:07.029  INFO 14764 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 12:14:07.073  INFO 14764 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 12:14:07.076  INFO 14764 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 12:14:07.344  INFO 14764 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 12:14:07.365  INFO 14764 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 12:14:07.368  INFO 14764 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 12:14:07.373  INFO 14764 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 12:14:07.379  INFO 14764 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 12:14:07.380  INFO 14764 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 12:14:07.824  INFO 14764 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 12:14:07.829  INFO 14764 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 12:14:07.843  INFO 14764 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 12:14:07.887  INFO 14764 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 12:14:07.900  INFO 14764 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 12:14:07.945  INFO 14764 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 12:14:07.954  INFO 14764 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 12:14:07.957  INFO 14764 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 12:14:08.486  INFO 14764 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 12:14:08.487  INFO 14764 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 12:14:08.491  INFO 14764 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 12:14:08.493  INFO 14764 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 12:14:11.814  INFO 14764 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 12:14:31.695  INFO 14764 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/upload 权限有效
+2018-12-09 12:14:37.202 ERROR 14764 --- [http-nio-8080-exec-7] com.ice.common.GlobalExceptionHandler    : [/resource/upload] request catch system error Invoke of: ExportAsFixedFormat
+Source: 
+Description: 
+
+2018-12-09 15:02:00.874  INFO 9908 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 9908 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 15:02:00.878  INFO 9908 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 15:02:02.020  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 15:02:02.124  INFO 9908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 7 repository interfaces.
+2018-12-09 15:02:02.471  INFO 9908 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a24e77e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 15:02:02.796  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 15:02:02.814  INFO 9908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 15:02:02.814  INFO 9908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 15:02:02.820  INFO 9908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 15:02:02.946  INFO 9908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 15:02:02.946  INFO 9908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2014 ms
+2018-12-09 15:02:02.996  INFO 9908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 15:02:02.996  INFO 9908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 15:02:02.997  INFO 9908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 15:02:02.997  INFO 9908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 15:02:02.997  INFO 9908 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 15:02:02.997  INFO 9908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 15:02:02.998  INFO 9908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 15:02:03.161  INFO 9908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 15:02:03.162  WARN 9908 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 15:02:03.450  INFO 9908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 15:02:03.501  INFO 9908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 15:02:03.587  INFO 9908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 15:02:03.588  INFO 9908 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 15:02:03.745  INFO 9908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 15:02:03.895  INFO 9908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 15:02:04.633  INFO 9908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 15:02:05.384  WARN 9908 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 15:02:05.505  INFO 9908 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 15:02:05.648  INFO 9908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 15:02:05.982  INFO 9908 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b8ee69d, org.springframework.security.web.context.SecurityContextPersistenceFilter@34a33343, org.springframework.security.web.header.HeaderWriterFilter@4ae958b0, org.springframework.security.web.authentication.logout.LogoutFilter@684b26b7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fe05fff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@323efafe, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2b400bd0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7791ff50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@459e120b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1df06ecd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fceab5d, org.springframework.security.web.session.SessionManagementFilter@4ff074a0, org.springframework.security.web.access.ExceptionTranslationFilter@7598d675, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ad8d36f]
+2018-12-09 15:02:06.047  INFO 9908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 15:02:06.066  INFO 9908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 15:02:06.098  INFO 9908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 15:02:06.509  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 15:02:06.511  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 15:02:06.514  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 15:02:06.516  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 15:02:06.522  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 15:02:06.523  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 15:02:06.531  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 15:02:06.534  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 15:02:06.549  INFO 9908 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 15:02:06.593  INFO 9908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 15:02:06.595  INFO 9908 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 6.3 seconds (JVM running for 7.278)
+2018-12-09 15:21:07.920  INFO 19136 --- [main] com.ice.OnlineLibraryApplication         : Starting OnlineLibraryApplication on SC-201804042155 with PID 19136 (D:\code\IdeaProjects\online-library\target\classes started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 15:21:07.925  INFO 19136 --- [main] com.ice.OnlineLibraryApplication         : No active profile set, falling back to default profiles: default
+2018-12-09 15:21:09.098  INFO 19136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 15:21:09.200  INFO 19136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 7 repository interfaces.
+2018-12-09 15:21:09.531  INFO 19136 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f822dfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 15:21:09.815  INFO 19136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-09 15:21:09.831  INFO 19136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-09 15:21:09.831  INFO 19136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-09 15:21:09.837  INFO 19136 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\opt\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;D:\spss\JRE\bin;D:\opt\java\bin;D:\opt\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\opt\Rational Rose\common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\opt\nodeJs\;C:\MinGW\bin;D:\opt\Music-Enviromnent\ffmpeg-20181203-8ef0fda-win64-static\bin;D:\opt\Music-Enviromnent\TiMidity++-2.15.0;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Roaming\npm;.]
+2018-12-09 15:21:09.965  INFO 19136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-09 15:21:09.965  INFO 19136 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1977 ms
+2018-12-09 15:21:10.013  INFO 19136 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-09 15:21:10.013  INFO 19136 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-09 15:21:10.013  INFO 19136 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-09 15:21:10.013  INFO 19136 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-09 15:21:10.014  INFO 19136 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-12-09 15:21:10.014  INFO 19136 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'corsFilter' to: [/*]
+2018-12-09 15:21:10.014  INFO 19136 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-09 15:21:10.164  INFO 19136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 15:21:10.165  WARN 19136 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 15:21:10.376  INFO 19136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 15:21:10.424  INFO 19136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 15:21:10.482  INFO 19136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 15:21:10.483  INFO 19136 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 15:21:10.608  INFO 19136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 15:21:10.735  INFO 19136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 15:21:11.354  INFO 19136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 15:21:12.048  WARN 19136 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 15:21:12.170  INFO 19136 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 15:21:12.298  INFO 19136 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 15:21:12.588  INFO 19136 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bc21e34, org.springframework.security.web.context.SecurityContextPersistenceFilter@46de118b, org.springframework.security.web.header.HeaderWriterFilter@684b26b7, org.springframework.security.web.authentication.logout.LogoutFilter@42238078, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b66ac74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c5708e7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7544260a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3516b881, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10cb050, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2374452a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bb6869a, org.springframework.security.web.session.SessionManagementFilter@4182a651, org.springframework.security.web.access.ExceptionTranslationFilter@32dbca45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4449b273]
+2018-12-09 15:21:12.649  INFO 19136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 15:21:12.665  INFO 19136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 15:21:12.692  INFO 19136 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 15:21:13.102  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 15:21:13.104  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 15:21:13.107  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 15:21:13.109  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 15:21:13.114  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 15:21:13.116  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 15:21:13.123  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 15:21:13.126  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 15:21:13.141  INFO 19136 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 15:21:13.185  INFO 19136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-09 15:21:13.188  INFO 19136 --- [main] com.ice.OnlineLibraryApplication         : Started OnlineLibraryApplication in 5.799 seconds (JVM running for 6.815)
+2018-12-09 15:21:41.023  INFO 19136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-09 15:21:41.023  INFO 19136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-09 15:21:41.038  INFO 19136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2018-12-09 15:21:46.357  INFO 19136 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-09 15:21:49.579  INFO 19136 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 15:21:49.626  INFO 19136 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 15:21:49.629  INFO 19136 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 15:21:49.983  INFO 19136 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 15:21:50.002  INFO 19136 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 15:21:50.005  INFO 19136 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 15:21:50.013  INFO 19136 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 15:21:50.015  INFO 19136 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 15:21:50.018  INFO 19136 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 15:21:50.510  INFO 19136 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 15:21:50.578  INFO 19136 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 15:21:50.592  INFO 19136 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 15:21:50.643  INFO 19136 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 15:21:50.655  INFO 19136 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 15:21:50.665  INFO 19136 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 15:21:51.270  INFO 19136 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 15:21:51.271  INFO 19136 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 15:21:51.275  INFO 19136 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
+2018-12-09 15:21:51.277  INFO 19136 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 15:21:58.543  INFO 19136 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 15:22:05.248  INFO 19136 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/listAll 权限有效
+2018-12-09 15:22:10.173  INFO 19136 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /resource/listAll 权限有效
+2018-12-09 15:24:18.129  INFO 17684 --- [main] com.ice.OnlineLibraryApplicationTests    : Starting OnlineLibraryApplicationTests on SC-201804042155 with PID 17684 (started by Administrator in D:\code\IdeaProjects\online-library)
+2018-12-09 15:24:18.131  INFO 17684 --- [main] com.ice.OnlineLibraryApplicationTests    : No active profile set, falling back to default profiles: default
+2018-12-09 15:24:19.525  INFO 17684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-09 15:24:19.693  INFO 17684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154ms. Found 7 repository interfaces.
+2018-12-09 15:24:20.297  INFO 17684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c41d7f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-09 15:24:20.636  INFO 17684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-09 15:24:20.640  WARN 17684 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-09 15:24:20.955  INFO 17684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-09 15:24:21.042  INFO 17684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-09 15:24:21.135  INFO 17684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-09 15:24:21.136  INFO 17684 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-09 15:24:21.309  INFO 17684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-09 15:24:21.716  INFO 17684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-09 15:24:22.712  INFO 17684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 15:24:24.099  WARN 17684 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-09 15:24:24.805  INFO 17684 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-09 15:24:25.750  INFO 17684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-09 15:24:26.517  INFO 17684 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ad95cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ea0a7a9, org.springframework.security.web.header.HeaderWriterFilter@22ee7fdc, org.springframework.security.web.authentication.logout.LogoutFilter@69ac5752, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e4ef4c0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2aaa89c2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69fd99c1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36eb8e07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25e353dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ae5580, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32d8710a, org.springframework.security.web.session.SessionManagementFilter@6949cead, org.springframework.security.web.access.ExceptionTranslationFilter@533d7c61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ca4f762]
+2018-12-09 15:24:26.694  INFO 17684 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-09 15:24:26.741  INFO 17684 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-12-09 15:24:26.778  INFO 17684 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-09 15:24:27.050  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2018-12-09 15:24:27.054  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2018-12-09 15:24:27.061  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2018-12-09 15:24:27.065  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-09 15:24:27.074  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2018-12-09 15:24:27.077  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2018-12-09 15:24:27.091  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2018-12-09 15:24:27.098  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2018-12-09 15:24:27.145  INFO 17684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2018-12-09 15:24:27.179  INFO 17684 --- [main] com.ice.OnlineLibraryApplicationTests    : Started OnlineLibraryApplicationTests in 9.486 seconds (JVM running for 10.53)
+2018-12-09 15:24:27.376  INFO 17684 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-09 15:24:27.382  INFO 17684 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-09 15:24:27.385  INFO 17684 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-09 15:24:27.395  INFO 17684 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-09 15:40:10.796  INFO 19136 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-ui.html 权限有效
+2018-12-09 15:40:10.828  INFO 19136 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui.css 权限有效
+2018-12-09 15:40:10.828  INFO 19136 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.css 权限有效
+2018-12-09 15:40:10.831  INFO 19136 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-bundle.js 权限有效
+2018-12-09 15:40:10.840  INFO 19136 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js 权限有效
+2018-12-09 15:40:10.842  INFO 19136 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/springfox.js 权限有效
+2018-12-09 15:40:11.314  INFO 19136 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/ui 权限有效
+2018-12-09 15:40:11.318  INFO 19136 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-32x32.png 权限有效
+2018-12-09 15:40:11.324  INFO 19136 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources/configuration/security 权限有效
+2018-12-09 15:40:11.330  INFO 19136 --- [http-nio-8080-exec-2] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/favicon-16x16.png 权限有效
+2018-12-09 15:40:11.333  INFO 19136 --- [http-nio-8080-exec-10] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /swagger-resources 权限有效
+2018-12-09 15:40:11.384  INFO 19136 --- [http-nio-8080-exec-7] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /v2/api-docs 权限有效
+2018-12-09 15:40:11.398  INFO 19136 --- [http-nio-8080-exec-3] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2 权限有效
+2018-12-09 15:40:11.403  INFO 19136 --- [http-nio-8080-exec-1] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2 权限有效
+2018-12-09 15:40:11.958  INFO 19136 --- [http-nio-8080-exec-5] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2 权限有效
+2018-12-09 15:40:11.961  INFO 19136 --- [http-nio-8080-exec-4] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2 权限有效
+2018-12-09 15:40:11.961  INFO 19136 --- [http-nio-8080-exec-8] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2 权限有效
+2018-12-09 15:40:11.965  INFO 19136 --- [http-nio-8080-exec-6] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2 权限有效
+2018-12-09 15:40:11.970  INFO 19136 --- [http-nio-8080-exec-9] com.ice.service.impl.RbacServiceImpl     : /**/* 访问 /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2 权限有效
